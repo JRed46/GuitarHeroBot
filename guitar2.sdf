@@ -1,0 +1,1001 @@
+<sdf xmlns:drake="drake.mit.edu" version="1.7">
+  <model name="guitar2">
+    
+    <link name="guitar2_body_link">
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <mass>100.0</mass>
+        <pose>-0.30976 0.09954 0.06429 0 0 0</pose>
+        <inertia>
+          <ixx>2.47478e+00</ixx>
+          <ixy>-5.12673e-01</ixy>
+          <ixz>1.23736e+00</ixz>
+          <iyy>1.82212e+01</iyy>
+          <iyz>2.52662e-02</iyz>
+          <izz>1.60412e+01</izz>
+        </inertia>
+      </inertial>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>guitar2.obj</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.5 0 1 1</diffuse>
+        </material>
+      </visual>
+      <collision name="collision_000">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_000.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_001">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_001.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_002">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_002.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_003">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_003.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_004">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_004.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_005">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_005.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_006">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_006.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_007">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_007.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_008">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_008.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_009">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_009.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_010">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_010.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_011">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_011.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_012">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_012.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_013">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_013.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_014">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_014.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_015">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_015.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_016">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_016.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_017">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_017.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_018">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_018.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_019">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_019.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_020">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_020.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_021">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_021.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_022">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_022.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_023">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_023.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_024">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_024.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_025">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_025.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_026">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_026.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_027">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_027.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_028">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_028.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_029">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_029.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_030">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_030.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_031">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_031.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_032">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_032.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_033">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_033.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_034">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_034.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_035">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_035.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_036">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_036.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_037">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_037.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_038">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_038.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_039">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_039.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_040">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_040.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_041">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_041.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_042">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_042.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_043">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_043.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_044">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_044.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_045">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_045.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_046">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_046.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_047">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_047.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_048">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_048.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_049">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_049.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_050">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_050.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_051">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_051.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_052">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_052.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_053">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_053.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_054">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_054.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_055">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_055.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_056">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_056.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_057">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_057.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_058">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_058.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_059">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_059.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_060">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_060.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_061">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_061.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_062">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_062.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_063">
+        <geometry>
+          <mesh>
+            <uri>guitar2_parts/convex_piece_063.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+        </drake:proximity_properties>
+      </collision>
+    </link>
+    
+    <frame name="button1" attached_to="guitar2_body_link">
+      <pose>0.935 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button12" attached_to="guitar2_body_link">
+      <pose>0.900 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button2" attached_to="guitar2_body_link">
+      <pose>0.865 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button23" attached_to="guitar2_body_link">
+      <pose>0.83 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button3" attached_to="guitar2_body_link">
+      <pose>0.795 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button34" attached_to="guitar2_body_link">
+      <pose>0.76 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button4" attached_to="guitar2_body_link">
+      <pose>0.725 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button45" attached_to="guitar2_body_link">
+      <pose>0.69 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <frame name="button5" attached_to="guitar2_body_link">
+      <pose>0.655 0.0 0.0 0 0 0</pose>
+    </frame>
+    
+    <link name="prismatic_button1">
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.0001</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>0.0001</iyy><iyz>0</iyz>
+          <izz>0.0001</izz></inertia>
+      </inertial>
+      <collision name="box_collision1">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_visual1">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 1 0 1</diffuse>
+        </material>
+      </visual>
+      <pose>0.935 0.18 -0.014 0 0 0</pose>
+    </link>
+    
+    <joint name="prismatic_joint1" type="prismatic">
+      <parent>guitar2_body_link</parent>
+      <child>prismatic_button1</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.02</lower>
+          <upper>0.02</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>1000</spring_stiffness>
+          <damping>100</damping>
+        </dynamics>
+      </axis>
+    </joint>
+    
+    <link name="prismatic_button2">
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.0001</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>0.0001</iyy><iyz>0</iyz>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+      <collision name="box_collision2">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_visual2">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1 0 0 1</diffuse>
+        </material>
+      </visual>
+      <pose>0.865 0.18 -0.011 0 0 0</pose>
+    </link>
+    
+    <joint name="prismatic_joint2" type="prismatic">
+      <parent>button2</parent>
+      <child>prismatic_button2</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.02</lower>
+          <upper>0.02</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>1000</spring_stiffness>
+          <damping>100</damping>
+        </dynamics>
+      </axis>
+    </joint>
+    
+    <link name="prismatic_button3">
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.0001</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>0.0001</iyy><iyz>0</iyz>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+      <collision name="box_collision3">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_visual3">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1 1 0 1</diffuse>
+        </material>
+      </visual>
+      <pose>0.795 0.18 -0.008 0 0 0</pose>
+    </link>
+    
+    <joint name="prismatic_joint3" type="prismatic">
+      <parent>button3</parent>
+      <child>prismatic_button3</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.02</lower>
+          <upper>0.02</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>1000</spring_stiffness>
+          <damping>100</damping>
+        </dynamics>
+      </axis>
+    </joint>
+    
+    <link name="prismatic_button4">
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.0001</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>0.0001</iyy><iyz>0</iyz>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+      <collision name="box_collision4">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_visual4">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+        </material>
+      </visual>
+      <pose>0.725 0.18 -0.005 0 0 0</pose>
+    </link>
+    
+    <joint name="prismatic_joint4" type="prismatic">
+      <parent>button4</parent>
+      <child>prismatic_button4</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.02</lower>
+          <upper>0.02</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>1000</spring_stiffness>
+          <damping>100</damping>
+        </dynamics>
+      </axis>
+    </joint>
+    
+    <link name="prismatic_button5">
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.0001</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>0.0001</iyy><iyz>0</iyz>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+      <collision name="box_collision5">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_visual5">
+        <geometry>
+          <box>
+            <size>0.04 0.025 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1 0.5 0 1</diffuse>
+        </material>
+      </visual>
+      <pose>0.655 0.18 -0.002 0 0 0</pose>
+    </link>
+    
+    <joint name="prismatic_joint5" type="prismatic">
+      <parent>button5</parent>
+      <child>prismatic_button5</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.02</lower>
+          <upper>0.02</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>1000</spring_stiffness>
+          <damping>100</damping>
+        </dynamics>
+      </axis>
+    </joint>
+  
+  </model>
+</sdf>
